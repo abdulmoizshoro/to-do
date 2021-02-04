@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: #333;
+background: teal;
+}
+.main{
+  margin: 10px auto;
+  padding: 8px;
+  width: 400px;
+  height: 550px;
+  border: 4px solid rgb(166, 250, 246);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+text-align: center;
+background:url(back.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+border-radius: 20px;
+overflow-y: hidden;
+}
+h1{
+margin: 10px 0;
+  font-size: 3em;
+  font-family: inherit;
+  color: rgb(205, 221, 235);
+}
+hr{
+  width: 80%;
+}
+h2{
+  font-size: 1.5em;
+  color: rgb(226, 176, 111);
+}
+h3{
+  margin: 10px;
+    padding: 3px;
+  border-bottom: 2px solid rgb(194, 179, 179);
+  width: 70%;
+color: whitesmoke;
+font-size: 17px;
+font-weight: 300;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#input{
+  width: 50%;
+  outline: 0;
+  color: white;
+  font-size: 1.2rem;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(202, 190, 190);
+  padding: 7px 0;
+}
+.input input::placeholder{
+  color: rgba(89, 94, 93, 0.452);
+}
+#input:focus{
+  border-bottom: 2px solid red;
+}
+#add-btn{
+  width: 80px;
+  height: 35px;
+  border-radius: 0 5px 5px 0;
+  border: hidden;
+  outline: 0;
+  background: rgb(154, 220, 224);
+  font-size: 14px;
+  font-weight: 400;
+}
+#add-btn:active{
+  background-color:  rgb(104, 181, 185);
+  border: 2px solid rgb(214, 214, 214);
+  box-shadow:  0 1px 1px rgb(212, 206, 206);
+}
+
+.list {
+  background: transparent;
+  width: 350px;
+  height: 50px;
+  padding: 2px;
+  text-align: left;
+  margin: 5px 0;
+  position: relative;
+  overflow: hidden;
+}
+.list-del{
+  position: absolute;
+  right: 15px;
+  bottom: 18px;
+  color: red;
+  font-weight: 700;
+  border-radius: 5px;
+  background: lightblue;
+  outline: 0;
+  border: none;
+}
+.list-del:active{
+  background: lightseagreen;
+}
+.list-del2{
+  position: absolute;
+  right: 40px;
+  bottom: 18px;
+  color: rgb(3, 3, 3);
+  font-weight: 300;
+  border-radius: 5px;
+  background: lightblue;
+  outline: 0;
+  border: none;
+}
+.list-del2:active{
+  background: lightseagreen;
+}
